@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Poppins:wght@400;700&display=swap");
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.stopBolha {
+  height: 100%;
+  overflow: hidden;
+}
+
+.loginbox {
+  position: relative;
+  z-index: 5;
+  top: -1500px;
+  left: 500px;
+}
+
+.senhabox {
+  position: relative;
+  z-index: 5;
+  top: -1450px;
+  left: 330px;
+}
+
+.bemvindo {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  -webkit-animation-name: bemvindoEnter;
+          animation-name: bemvindoEnter;
+  -webkit-animation-duration: 5s;
+          animation-duration: 5s;
+  position: relative;
+  z-index: 5;
+  top: -900px;
+  left: 100px;
+}
+
+.bemvindo2 {
+  top: -890px;
+}
+
+.myrobot-logo {
+  -webkit-animation-name: logoEnter;
+          animation-name: logoEnter;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  width: 600px;
+  position: relative;
+  z-index: 999;
+  top: -1350px;
+  left: 900px;
+}
+
+.robotzinho {
+  -webkit-animation-name: robotzinhoEnter;
+          animation-name: robotzinhoEnter;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  position: relative;
+  width: 500px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  left: 100px;
+  top: 180px;
+  z-index: 2;
+}
+
+.forma-robotzinho {
+  -webkit-animation-name: forma-robotzinhoEnter;
+          animation-name: forma-robotzinhoEnter;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  position: relative;
+  width: 500px;
+  top: -340px;
+  left: 100px;
+  -webkit-transform: scaleX(-1);
+          transform: scaleX(-1);
+  z-index: 1;
+}
+
+.bolha {
+  -webkit-animation-name: bolhaEnter;
+          animation-name: bolhaEnter;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  position: relative;
+  width: 900px;
+  height: 1000px;
+  background-color: #ee6706;
+  border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%;
+  z-index: 1;
+}
+
+@-webkit-keyframes bolhaEnter {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes bolhaEnter {
+  0% {
+    left: -2000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@-webkit-keyframes robotzinhoEnter {
+  0% {
+    top: 1000px;
+  }
+}
+
+@keyframes robotzinhoEnter {
+  0% {
+    top: 1000px;
+  }
+}
+
+@-webkit-keyframes forma-robotzinhoEnter {
+  0% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+    top: 1000px;
+  }
+}
+
+@keyframes forma-robotzinhoEnter {
+  0% {
+    -webkit-transform: rotateX(90deg);
+            transform: rotateX(90deg);
+    top: 1000px;
+  }
+}
+
+@-webkit-keyframes logoEnter {
+  0% {
+    top: 1000px;
+  }
+}
+
+@keyframes logoEnter {
+  0% {
+    top: 1000px;
+  }
+}
+
+@-webkit-keyframes bemvindoEnter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes bemvindoEnter {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .bolha {
+    -webkit-animation-name: bolhaEnter;
+            animation-name: bolhaEnter;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+    position: relative;
+    width: 300px;
+    height: 100%;
+    background-color: #ee6706;
+    border-radius: 0% 100% 100% 0% / 0% 0% 100% 100%;
+    z-index: 1;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
